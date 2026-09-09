@@ -1,0 +1,29 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Curso Completo de TypeScript",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node ."
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorlopesdeveloper/typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/victorlopesdeveloper/typescript/issues"
+  },
+  "homepage": "https://github.com/victorlopesdeveloper/typescript#readme",
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
