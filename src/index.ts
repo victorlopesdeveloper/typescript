@@ -1,1 +1,3 @@
-console.log("Hello World!")
+import {readFile} from "node:fs/promises";
+
+await readFile("src/index.ts");
